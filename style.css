@@ -1,0 +1,93 @@
+body {
+    width: 1000px;
+    font-family: 'メイリオ',
+    'hiragino kaku Gothic Pro',
+    sans-serif;
+    /*background-color: #bca049;*/
+    margin-left:30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+    
+}
+.logoimg{
+    margin-left: 500px;
+    margin-top: 20px;
+}
+
+nav {
+    display: block;
+    height: 100px;
+}
+nav li{
+    /*border: 2px solid;*/
+    display:table-cell;
+    /*direction: rtl;*/
+    margin-left: 30px;
+    font-size: 28px;
+    float:left;
+}
+nav li ul {
+    display: inline-block;
+    float: left;
+    
+}
+.social{
+    display:table-cell;
+    display: inline-block;
+    width: 45px;
+}
+/*.socialt{*/
+/*    display:table-cell;*/
+/*    display: inline-block;*/
+/*    width: auto;*/
+/*}*/
+/*.socialm{*/
+/*    display:table-cell;*/
+/*    display: inline-block;*/
+/*    width: auto;*/
+/*}*/
+.nepal_map{
+    margin-left: 30px;
+    width: 550px;
+    margin-top:30px;
+}
+.information{
+    display: inline-block;
+    width: 350px;
+    float: right;
+    margin-top: 80px;
+    background-color: #9bF1ba;
+    text-align: center;
+    font-family: cursive;
+     
+    
+}
+
+.slides {
+    position: absolute;
+    width: 800px;
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+ul{
+    list-style-image: url("image/aabb.png");
+    /*display: inline-block;*/
+    /*float:left;*/
+    
+}
+
+.foods-festivals .fd-fv {
+    display: inline-block;
+    margin-left: 200px;
+    font-family: cursive;
+}
+footer{
+    margin-left: 30px;
+    font-style: bold;
+    
+}
+
+ 
