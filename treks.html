@@ -5,109 +5,117 @@
     <meta charset="UTF-8">
     <title>treks | Graduation</title>
     <link rel="stylesheet" href="style.css">
-    
+
     <!-- 1. Link to jQuery (1.8 or later), -->
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> <!-- 33 KB -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <!-- 33 KB -->
     <!-- fotorama.css & fotorama.js. -->
-    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <!-- 3 KB -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    <!-- 16 KB -->
 </head>
 
 <body class="logo">
     <header>
-        <img src="image/newlogo.png"/ class = "logoimg">
-        
-            <nav>
-                <ul>
-                    <li>
-                        <a href="index.html">
+        <img src="image/logonpl.png" / class="logoimg">
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">
                             <img src="image/button_home.png"></img>
                         </a>
-                    </li>
-                    <li>
-                        <a href="treks.html">
+                </li>
+                <li>
+                    <a href="treks.html">
                             <img src="image/button_popular-treks.png"></img>
                         </a>
-                    </li>
-                    <li>
-                        <img src="image/button_contact-us.png"></img>
-                    </li>
-                    <li>
-                        <ul>
-                            <li>
-                                <img src ="image/fb.png"/ class = "social">
-                            </li>
-                            <li>
-                                <img src = "image/twitter.png"/ class = "social">
-                            </li>
-                            <li>
-                                <img src = "image/instagram.png"/ class ="social">
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
+                </li>
+                <li>
+                    <a href="contact.html">
+                             <img src="image/button_contact-us.png"></img>
+                        </a>
+                </li>
+                <li>
+                    <ul>
+                        <li>
+                            <img src="image/fb.png" / class="social">
+                        </li>
+                        <li>
+                            <img src="image/twitter.png" / class="social">
+                        </li>
+                        <li>
+                            <img src="image/instagram.png" / class="social">
+                        </li>
+                    </ul>
+                </li>
+            </ul>
 
-            </nav>
-        
+        </nav>
+
     </header>
-    
-    <!--<div class="contents">-->
-    <!--    <img src="image/Map-of-Nepal.gif"/ class = "nepal_map">-->
-    <!--    <div class = "information">-->
-    <!--        <p>-->
-    <!--            A country of south Asia in the Himalaye<br>-->
-    <!--            mountains between India<br>-->
-    <!--            and southwest China.<br>-->
-    <!--            Kathmandu is the capital city of Nepal.<br>-->
-    <!--            Nepal is a beautiful county with<br>-->
-    <!--            one of the most friendly and hospitable<br>-->
-    <!--            People in the world.Nepal offers a number<br>-->
-    <!--            of activites giving you culturally,naturally<br>-->
-    <!--            & spiritually rich expriences.I love my country<br>-->
-    <!--            (マライ　メロ　デス　ピャロ　ラクサ。)-->
-    <!--        </p>-->
-    <!--    </div>-->
-    <!--    <hr>-->
-        
-        <h1>treks</h1>
-    <!--        <div class="fotorama" data-autoplay="2000" data-width="1000">-->
-    <!--            <img src="image/Nepal-Flag.gif"  class="slides">-->
-    <!--            <img src="image/Durbar-Square.jpg" class="slides">-->
-    <!--            <img src="image/Kumari-Nepal.jpg" class="slides">-->
-    <!--            <img src="image/Dal-Bhat-Nepali.jpg" class="slides">-->
-    <!--            <img src="image/lumbini.jpg" class="slides">-->
-    <!--            <img src="image/stupa.jpg" class="slides">-->
-    <!--            <img src="image/mustang.jpg" class="slides">-->
-    <!--            <img src="image/janakpur.jpg" class="slides">-->
-    <!--            <img src="image/himal.jpg" class="slides">-->
-                
-    <!--        </div>-->
-            
-    <!--        <div class = "foods-festivals">-->
-    <!--            <ul>-->
-    <!--                <li class = "fd-fv">-->
-    <!--                    <h3>Famous Food</h3>-->
-    <!--                    <ul class = "inner_list">-->
-    <!--                        <li>Dal Bhat</li>-->
-    <!--                        <li>Gundruk Dhido</li>-->
-    <!--                        <li>MO MO chowmin</li>-->
-    <!--                    </ul>-->
-    <!--                </li>-->
-    <!--                <li class = "fd-fv">-->
-    <!--                    <h3> Famous Festivals</h3>-->
-    <!--                    <ul class = "inner_list">-->
-    <!--                        <li>Dashain</li>-->
-    <!--                        <li>Tihar</li>-->
-    <!--                        <li>lhosar</li>-->
-    <!--                    </ul>-->
-    <!--                </li>-->
-                    
-    <!--            </ul> -->
-    <!--        </div>-->
-        
-        
-       
-    <!--</div>-->
+    <h1>Everest Base Camp</h1>
+    <div class="fotorama" onclick="currentSlide" data-width="1000">
+        <!--<ol>Everest Base Camp</ol>-->
+        <img src="image/photo1.jpg" class="everst">
+        <img src="image/photo2.jpg" class="everst">
+        <img src="image/photo3.jpg" class="everst">
+        <img src="image/photo4.jpg" class="everst">
+    </div>
+    <div class="info">
+        <p>
+            Everest Base camp is either of two base camp on opposite side of Mount Everest. There are South Base camp(17,598ft) & North Base camp(16,900ft). Take on the adventure of a life time treaking in Nepal to reach Everst base camp.
+        </p>
+        <h3>South Base Camp</h3>
+        <p>
+            Flying from Kathmandu to Lukla.explore theh mountains & valleys arround the towrring peak,rest in Nepalese teahouse,learn about the traditions & cultures of the famous SHERPA and spend time in exotic Kathmandu.
+        </p>
+        <h3>North Base Camp</h3>
+        <P>
+            A visit to the North Base Camp currently reaquires a parmit from the chinese goverment. Such permits mist arranged via travel companies in Lhosa as part of a package tour that include hiring a vhicle,driver and guide.
+        </P>
+    </div>
+    <h1>Annapura Base Camp</h1>
+    <div class="fotorama" onclick="currentSlide" data-width="1000">
+        <!--<ol>Everest Base Camp</ol>-->
+        <img src="image/Annapurna1.jpg" class="everst">
+        <img src="image/ABC.jpg" class="everst">
+        <img src="image/annapurna2.jpg" class="everst">
+        <img src="image/annapurna3.jpg" class="everst">
+        <img src="image/annapurna4.jpg" class="everst">
+        <img src="image/Annapurna5.jpg" class="everst">
+    </div>
+    <div class="info">
+        <p>There are few treks that combine so many different landscapes <br> and bring you so close to the base of 7,000 and 8,000 meter peaks in a such a short period of time as the Annapurna Base Camp Trek. The Annapurna Base Camp trek is one of the most
+            popular treks in the Annapurna region.<br> The trail goes alongside terraced rice paddies, lush rhododendron forests and high altitude landscapes with the Annapurna Range in view most of the times. The setting of Annapurna Base Camp at 4130
+            m is unique and incredibly spectacular, <br> set amidst the majestic peaks of Annapurna I (8091 m), Annapurna South (7219 m),<br> Machapuchhre (6993 m) and Hiunchuli (6441 m). The Annapurna Base Camp Trek takes 7 to 12 days, depending on your
+            itinerary and length of walking days.<br> The itinerary presented here takes 12 days, starting from Nayapul (a 1 1/2 hour drive from Pokhara) and going north up to Ghorepani and the famous viewpoint at Poon Hill.<br> From Ghorepani you go
+            eastward to Chomrong and then north again entering the Modi Kola Valley which leads up to the Base Camp.4 Many people trek the circuit Nayapul-Ghorepani-Ghandruk-Nayapul, which is very rewarding in itself. This trek can easily be done with
+            children as well. You can return via Jhinu Danda and give your tired muscles a well deserved rest in the delightful hot springs.<br> Upon your return it is worthwhile visiting one of the Gurung villages of Ghandruk or Landruk.
+        </p>
+    </div>
+    <h1>Kanchanjunga Cricuit Trek</h1>
+    <div class="fotorama" onclick="currentSlide" data-width="1000">
+        <!--<ol>Everest Base Camp</ol>-->
+        <img src="image/kan1.jpg" class="everst">
+        <img src="image/kan2.jpg" class="everst">
+        <img src="image/kan3.jpg" class="everst">
+        <img src="image/kan4.jpg" class="everst">
+        <img src="image/kan5.jpg" class="everst">
+    </div>
+    <div class="info">
+        <p>
+            Kanchenjunga Circuit Trek is one of the most famous treks in Nepal. <br>
+            Every year thousands of trekkers hike to Kanchenjunga Circuit Trek. Kanchenjunga Circuit Trek is a restricted trekking area. So to trek in Kanchenjunga area,<br> you
+            need a local guide and at least 2 trekkers to obtain necessary permits to trek through Kanchenjunga. Kanchenjunga Circuit trek is not as popular as Everest Base Camp Trek or Annapurna Base Camp Trek.<br> 
+            That means it is not crowded and still
+            remote. So you can experience remote Nepali cultures, foods and lifestyle in its traditional form while trekking in Kanchenjunga area. <br>
+            Kanchenjunga trek is tea-house trek. Tea-house treks have small lodges with minimum variety of food and<br>
+            lodges that come along the trek route.You can visit Kanchenjunga through two trek, either the Northern Base Camp or the Southern Base Camp.<br>
+            If you choose both in the same trip, it can be utterly difficult given the diversity and irregularity of its landscape.
+        </p>
+    </div>
     <footer>
         ©copyright mynepal all rights reserved
 
