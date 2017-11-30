@@ -18,50 +18,49 @@
 
 <body class="logo">
     <header>
-        <img src="image/logonpl.png"/ class = "logoimg">
-        
-            <nav>
-                <ul>
-                    <li>
-                        <a href="index.html">
+        <img src="image/logonpl.png" / class="logoimg">
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">
                             <img src="image/button_home.png"></img>
                         </a>
-                    </li>
-                    <li>
-                        <a href="treks.html">
+                </li>
+                <li>
+                    <a href="treks.html">
                             <img src="image/button_popular-treks.png"></img>
                         </a>
-                    </li>
-                    <li>
-                        <a href ="contact.html">
+                </li>
+                <li>
+                    <a href="contact.html">
                             <img src="image/button_contact-us.png"></img>
                         </a>
-                    </li>
-                    <li>
-                        <ul>
-                            <li>
-                                <img src ="image/fb.png"/ class = "social">
-                            </li>
-                            <li>
-                                <img src = "image/twitter.png"/ class = "social">
-                            </li>
-                            <li>
-                                <img src = "image/instagram.png"/ class ="social">
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li>
+                            <img src="image/fb.png" / class="social">
+                        </li>
+                        <li>
+                            <img src="image/twitter.png" / class="social">
+                        </li>
+                        <li>
+                            <img src="image/instagram.png" / class="social">
+                        </li>
+                    </ul>
+                </li>
+            </ul>
 
-            </nav>
-        
+        </nav>
+
     </header>
-    <p class = "jpn">
-        ネパールは緑が多くて、とても美しい国です。ネパールでは海がないですけど湖や山がいっぱいあります。<br>
-        世界で一番高い山エベレストもネパールにあります。ほかの国に比べたらそんなに経済は発展されてないですけど、<br>
-        心がいい人がいっぱいいます。外国から来ている人や旅行に行っている人々にとても優しくて紹介してあげたり、<br>
-        無料で家に泊まることもできます。清潔な空気もあり、遊ぶところがいっぱいあります。皆さんぜひネパールに遊びに来てください。
+    <p class="jpn">
+        ネパールは緑が多くて、とても美しい国です。ネパールでは海がないですけど湖や山がいっぱいあります。<br> 世界で一番高い山エベレストもネパールにあります。ほかの国に比べたらそんなに経済は発展されてないですけど、
+        <br> 心がいい人がいっぱいいます。外国から来ている人や旅行に行っている人々にとても優しくて紹介してあげたり、
+        <br> 無料で家に泊まることもできます。清潔な空気もあり、遊ぶところがいっぱいあります。皆さんぜひネパールに遊びに来てください。
     </p>
-    <h3 class = "us">FOR MORE INFORMATION CONTACT US:</h3>
+    <h3 class="us">FOR MORE INFORMATION CONTACT US:</h3>
     <table class="contact">
         <tr>
             <th>Name</th>
@@ -70,14 +69,62 @@
         </tr>
         <tr>
             <td>DEVI PAIJA</td>
-            <td>eisu.it.student04@gmail.com</td>
+            <td>
+                <a href="mailto:eisu.it.student04@gmail.com">eisu.it.student04@gmail.com</a>
+            </td>
             <td>070-0000-1928</td>
         </tr>
-        
+
     </table>
-    
-    <img src="image/thank_you.png" / class = "thanks">
-    
+    <form action="http://kyushueisu-2017.big-bad.info/test_mail" method="post" class = "contact2">
+        <p class = "cn">
+            <lable> Name:<br>
+                <input type="text" name="name" placeholder="Your name.." />
+            </lable>
+        </p>
+        <p>
+            <label>Email:<br>
+                <input type="email" name="email" placeholder="....@..com"/>
+            </label>
+        </p>
+        <p>
+            <label>Subject:<br>
+                <input type="text" name="subject" />
+            </label>
+        </p>
+         <p>
+            <label>Country:<br>
+            <!--<input type="text" name="country"/>-->
+            </label>
+            <select id="country" name="country">
+            <option value="australia">Nepal</option>
+            <option value="canada">Japan</option>
+            <option value="usa">USA</option>
+            <option value="Korea">Korea</option>
+            </select>
+        </p>
+        <p>
+            <label>Contact Number:<br>
+                 <input type="text" name= "text" tplaceholder = "000-xxxx-00xx--"/>
+            </label>
+        
+         </p>
+         <p>
+            <label>Message:<br>
+                 <textarea name="body"placeholder = "write something.."/></textarea>
+            </label>
+        
+         </p>
+         
+        <input type="hidden" name="manager_email" value="eisu.it.student04@gmail.com" />
+        <p>
+            <input type="hidden" name="return_url" value = "https://graduation-devee.c9users.io/contact.html"/>
+            
+            <input type="submit" name="send" value="Send"  />
+        </p>
+
+    </form>
+
     <footer>
         ©copyright mynepal all rights reserved
 
