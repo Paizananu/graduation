@@ -57,7 +57,7 @@
     </header>
     <p class="jpn">
         ネパールは緑が多くて、とても美しい国です。ネパールでは海がないですけど湖や山がいっぱいあります。<br> 世界で一番高い山エベレストもネパールにあります。ほかの国に比べたらそんなに経済は発展されてないですけど、
-        <br> 心がいい人がいっぱいいます。外国から来ている人や旅行に行っている人々にとても優しくて紹介してあげたり、
+        <br> 心がいい人がいっぱいいます。外国から来ている人や旅行に来ている人々にとても優しくて紹介してあげたり、
         <br> 無料で家に泊まることもできます。清潔な空気もあり、遊ぶところがいっぱいあります。皆さんぜひネパールに遊びに来てください。
     </p>
     <h3 class="us">FOR MORE INFORMATION CONTACT US:</h3>
@@ -77,7 +77,7 @@
 
     </table>
     <form action="http://kyushueisu-2017.big-bad.info/test_mail" method="post" class = "contact2">
-        <p class = "cn">
+        <p>
             <lable> Name:<br>
                 <input type="text" name="name" placeholder="Your name.." />
             </lable>
@@ -105,7 +105,8 @@
         </p>
         <p>
             <label>Contact Number:<br>
-                 <input type="text" name= "text" tplaceholder = "000-xxxx-00xx--"/>
+            <input type="text" class="tel-number-field" name="tel_no_1" value="" maxlength="4" />-<input type="text" class="tel-number-field" name="tel_no_2" value="" maxlength="4"  />-<input type="text" class="tel-number-field" name="tel_no_3" value="" maxlength="10"  /></label>
+                 
             </label>
         
          </p>
@@ -120,7 +121,7 @@
         <p>
             <input type="hidden" name="return_url" value = "https://graduation-devee.c9users.io/contact.html"/>
             
-            <input type="submit" name="send" value="Send"  />
+            <input type="submit" name="send" value="Send"　class ="send"  />
         </p>
 
     </form>

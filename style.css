@@ -133,10 +133,18 @@ td, th {
     font-size: 18px;
     font-style: bold;
 }
-.contact2{
+.contact2 p{
     width: 100%; 
-    margin-left: 50px;
-}
-.cn{
+    /*margin-left: 50px;*/
     font-family: cursive;
+    /*font-style: italic;*/
+    font-size:18px;
+    
+}
+.tel-number-field{
+    width: 50px;
+    text-align: center;
+}
+.send{
+    font-family:bold;
 }
