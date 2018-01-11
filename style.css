@@ -12,8 +12,10 @@ body {
     
 }
 .logoimg{
-    margin-left: 400px;
+    margin-left: 450px;
     margin-top: 20px;
+    width: 80px;
+
 }
 
 nav {
@@ -42,6 +44,7 @@ nav li ul {
     display:table-cell;
     display: inline-block;
     width: 45px;
+    
 }
 /*.socialt{*/
 /*    display:table-cell;*/
@@ -79,8 +82,7 @@ nav li ul {
 }
 ul{
     list-style-image: url("image/aabb.png");
-    /*display: inline-block;*/
-    /*float:left;*/
+    
     
 }
 
@@ -135,7 +137,7 @@ td, th {
 }
 .contact2 p{
     width: 100%; 
-    /*margin-left: 50px;*/
+    /*margin-left: 80px;*/
     font-family: cursive;
     /*font-style: italic;*/
     font-size:18px;
@@ -146,5 +148,6 @@ td, th {
     text-align: center;
 }
 .send{
-    font-family:bold;
+    
+    width: 60px;
 }
