@@ -151,3 +151,16 @@ td, th {
     
     width: 60px;
 }
+.formfield *{
+    vertical-align: top;
+}
+
+.language {
+    text-align: right;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: -15px;
+}
+.language li{
+    display: inline;
+}

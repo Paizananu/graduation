@@ -21,6 +21,11 @@
         <a href="index.html">
            <img src="../image/logo22.png" / class="logoimg">
         </a>
+        <ul class="language">
+            <li><a href="../contact.html">English</a></li>
+            <li>|</li>
+            <li>日本語</li>
+        </ul>
 
         <nav>
             <ul>
@@ -62,6 +67,7 @@
         <br> 親切な人が多いです。外国から来ている人や旅行に来ている人々にとても優しくて紹介してあげたり、
         <br> 無料で家に泊まることもできます。きれいな空気もあり、遊ぶところがいっぱいあります。皆さんぜひネパールに遊びに来てください。
     </p>
+        
     <h3 class="us">詳細はお問い合わせください：</h3>
     <table class="contact">
         <tr>
@@ -112,10 +118,12 @@
                 <input type="text" name="subject" class = "sub" />
             </label>
         </p>
-        <p>
-            <label>メッセージ:
-                 <textarea name="body"placeholder = "何か書く..." class = "sub"/></textarea>
+        <p class = "formfield">
+            <label>
+                メッセージ:
             </label>
+            <textarea name="body" rows = "10" cols = "40" placeholder = "何か書く..." class = "sub"/></textarea>
+            
 
         </p>
 
@@ -123,7 +131,7 @@
         <p>
             <input type="hidden" name="return_url" value="https://graduation-devee.c9users.io/contact.html" />
 
-            <input type="submit" name="送信" value="Send" 　class="send" />
+            <input type="submit" name="send" value="送信" 　class="send" />
 
         </p>
 
